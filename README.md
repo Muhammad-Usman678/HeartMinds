@@ -22,23 +22,26 @@ Electrocardiograms (ECGs) are vital tools in diagnosing and monitoring heart con
 The dataset used in this project is sourced from Kaggle. It contains ECG signals and their corresponding classifications. You can find more details about the dataset and download it from [Kaggle ECG Dataset](https://www.kaggle.com/).
 
 ## Installation
-
-To get started with HeartMinds, follow these steps:
+o get started with HeartMinds, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/HeartMinds.git
+    git clone https://github.com/Muhammad-Usman678/HeartMinds.git
     cd HeartMinds
     ```
 
-2. Create a virtual environment and install dependencies:
+2. Create a virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    pip install -r requirements.txt
     ```
 
-3. Download the ECG dataset from Kaggle.
+3. Install the necessary dependencies:
+    ```bash
+    pip install numpy pandas scikit-learn matplotlib jupyter
+    ```
+
+4. Download the ECG dataset from Kaggle
 
 ## Usage
 
